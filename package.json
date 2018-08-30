@@ -1,0 +1,19 @@
+{
+  "name": "diprella-repository",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "apitest": "newman run DiprellaColl.postman_collection.json -e DiprellaEnv.postman_environment.json -g DiprellaSpace.postman_globals.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4Nata/Diprella-Repository.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4Nata/Diprella-Repository/issues"
+  },
+  "homepage": "https://github.com/4Nata/Diprella-Repository#readme"
+}
